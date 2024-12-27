@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Puzzle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header style="background-color: rgb(186, 193, 193);">
+        <br>
+        <h1>Sudoku Puzzle</h1>
+        <br>
+    </header>
+    
+    <centre>
+        <h2 style="color: rgb(17, 79, 88);">MISTAKE</h2>
+    <h2 id="error">0</h2>
+    <div id="flx">
+    <div style="padding-right: 10px;">
+        <fieldset style="text-align: left;border: 5px solid rgb(97, 147, 145);" >
+            <legend style="text-align: center;"><h3>RULES TO PLAY</h3></legend>
+            The Sudoku puzzle is a 9x9 grid, divided into 9 smaller 3x3 subgrids (or boxes).<br>
+Your goal is to fill in the grid with numbers from 1 to 9 such that:<br>
+Each row contains all the numbers from 1 to 9 (no repetition).<br>
+Each column contains all the numbers from 1 to 9 (no repetition).<br>
+Each 3x3 subgrid contains all the numbers from 1 to 9 (no repetition).
+<div style="padding-left:60px ;">
+<img src="https://www.growingplay.com/wp-content/uploads/2024/02/February-16-Fun-Fact-of-the-Day-for-Kids.png"width="300px">
+</div>
+        </fieldset>
+
+    </div>
+    
+    <div>
+    
+    <div id="sudoku-grid"> </div>
+    <br>
+    <div id="numberlist"></div>
+    <br/>
+    <div id="model" style="display: none; justify-content: center; align-items: center; background: rgba(0, 0, 0, 0.5); position: fixed; top: 0; left: 0; width: 100%; height: 100%;">
+        <div style="background: white; padding: 20px; border-radius: 5px; text-align: center;">
+            <h1>Congratulations!</h1>
+            <p>You completed the Sudoku puzzle!</p>
+        </div>
+    </div>
+    
+    </centre>
+    <br/></div>
+
+
+    <div style="padding-left: 10px;">
+        <fieldset style="text-align: left;border: 5px solid rgb(97, 147, 145);">
+            <legend style="text-align: center;"><h3 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">HOW TO PLAY?</h3></legend>
+            =>Select a number from the below given number list<br>
+            =>Fill the grids with the choosen number<br>
+            =>If your answer is correct, then the selected gird will be filled with the choosen number<br>
+            else the grid will not get filled and your error count increases.
+            <div style="padding-left: 60px;">
+            <img src="https://img.freepik.com/free-vector/sudoku-concept-illustration_114360-8378.jpg?semt=ais_hybrid"width="350px">
+        </div>
+        </fieldset>
+
+    </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

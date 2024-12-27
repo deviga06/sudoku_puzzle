@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f9fafa;
+}
+hr{
+    height: 5px;
+    background-color: rgb(97, 147, 145);
+}
+#error{
+    color: rgb(17, 70, 81);
+}
+#sudoku-grid {
+    width:450px;
+    height:450px;
+    background-color: rgb(156, 157, 157);
+    margin:0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    border: 3px solid black;
+    
+}
+
+.tiles{
+    width: 46px;
+    height: 46px;
+    border: 1px solid rgb(96, 141, 149);
+    background-color: rgb(246, 247, 247);
+    font-size: 20px;
+    margin: 1px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#numberlist{
+    width:450px;
+    height: 50px;
+    background-color: rgb(252, 251, 251);
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
+
+.tens{
+    width: 46px;
+    height: 46px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: rgb(182, 228, 234);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.intnum{
+    background-color: #66b4d1;
+}
+.bg{
+    background-color: rgb(234, 207, 242);
+}
+.hl{
+    border-bottom: 3px solid black;
+}
+.rl{
+    border-right: 3px solid black;
+}
+#flx{
+    display: flex;
+    justify-content: left;
+}
